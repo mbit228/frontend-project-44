@@ -25,7 +25,6 @@ const runEngine = (description, getRoundData) => {
     console.log('Correct!')
   }
 
-
   console.log(`Congratulations, ${name}!`)
 }
 
