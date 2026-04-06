@@ -13,7 +13,8 @@ export default [
       '@stylistic/no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
       '@stylistic/padded-blocks': ['error', 'never'],
       '@stylistic/eol-last': ['error', 'always'],
-      'no-console': 'off',
-    },
-  },
+      '@stylistic/comma-dangle': ['error', 'never'],
+      'no-console': 'off'
+    }
+  }
 ]
