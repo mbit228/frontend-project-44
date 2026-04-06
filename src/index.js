@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const roundsCount = 3; // Общее правило для всех игр
+const roundsCount = 3; 
 
 const runEngine = (description, getRoundData) => {
   console.log('Welcome to the Brain Games!');
@@ -19,7 +19,7 @@ const runEngine = (description, getRoundData) => {
     if (userAnswer !== correctAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
-      return; // Выходим из игры при ошибке
+      return; 
     }
 
     console.log('Correct!');
