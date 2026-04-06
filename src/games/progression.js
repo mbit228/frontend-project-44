@@ -5,7 +5,7 @@ const description = 'What number is missing in the progression?'
 const getRoundData = () => {
   const start = Math.floor(Math.random() * 20)
   const step = Math.floor(Math.random() * 10) + 1
-  const length = Math.floor(Math.random() * 6) + 5 
+  const length = Math.floor(Math.random() * 6) + 5
   const hiddenIndex = Math.floor(Math.random() * length)
 
   const progression = []

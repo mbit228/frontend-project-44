@@ -1,5 +1,5 @@
 // src/games/calc.js
-import runEngine from '../index.js' 
+import runEngine from '../index.js'
 
 const description = 'What is the result of the expression?'
 

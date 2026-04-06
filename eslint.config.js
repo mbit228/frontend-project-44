@@ -9,6 +9,7 @@ export default [
       '@stylistic/indent': ['error', 2],
       '@stylistic/quotes': ['error', 'single'],
       '@stylistic/semi': ['error', 'never'],
+      '@stylistic/no-trailing-spaces': 'error',
       'no-console': 'off',
     },
   },
