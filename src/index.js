@@ -10,7 +10,6 @@ const runEngine = (description, getRoundData) => {
   console.log(description)
 
   for (let i = 0; i < roundsCount; i += 1) {
-
     const [question, correctAnswer] = getRoundData()
 
     console.log(`Question: ${question}`)

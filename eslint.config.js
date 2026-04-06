@@ -11,6 +11,7 @@ export default [
       '@stylistic/semi': ['error', 'never'],
       '@stylistic/no-trailing-spaces': 'error',
       '@stylistic/no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
+      '@stylistic/padded-blocks': ['error', 'never'],
       'no-console': 'off',
     },
   },
