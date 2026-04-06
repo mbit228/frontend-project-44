@@ -3,7 +3,7 @@ import stylistic from '@stylistic/eslint-plugin'
 export default [
   {
     plugins: {
-      '@stylistic': stylistic
+      '@stylistic': stylistic,
     },
     rules: {
       '@stylistic/indent': ['error', 2],
@@ -13,8 +13,8 @@ export default [
       '@stylistic/no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
       '@stylistic/padded-blocks': ['error', 'never'],
       '@stylistic/eol-last': ['error', 'always'],
-      '@stylistic/comma-dangle': ['error', 'never'],
-      'no-console': 'off'
-    }
-  }
+      '@stylistic/comma-dangle': ['error', 'always-multiline'],
+      'no-console': 'off',
+    },
+  },
 ]
